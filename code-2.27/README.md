@@ -1,5 +1,5 @@
 # Project AKOUEIN for PhD
-Code for creating hearing models.  State prior to defense.
+Code for creating hearing models.  State prior to defense (2-27).
 
 ## Top-level code
 main.c
