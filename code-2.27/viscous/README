@@ -1,0 +1,8 @@
+matlab for creating viscosity parameters for models, especially models described in chap3 (multichannel models)
+
+tabless is the table with sulcus data for R0=.06
+spiral sulcus - R0=.06 mm 
+tabletc is the table with tunnel data for R0=.03
+the entries are
+frequency	real		imag		magni		phase 
+		gamma0		gamma1
