@@ -1,0 +1,88 @@
+\documentstyle[11pt]{report}  
+\def \title{Computational studies of the nonlinear dynamics of the mammalian cochlea}
+\def \zlambda{\lambda \! \! \! ^{-}}
+\def \nkappa{\bar\kappa}
+\def\singlespace{\baselineskip=12pt plus 2pt}
+\def\doublespace{\baselineskip=24pt plus 4pt}
+\def\tryspace{\baselineskip=18pt plus 2pt}
+\def\lljump{\vskip -.1 true in \noindent}
+\def\ljump{\vskip .1 true in \noindent}
+\def\jump{\vskip .2 true in \noindent}
+\def\@list{\topsep=0in}
+\def\home{/home3/mcorey/thesis.etc/thesis/}
+\def\A{{\it Akouein}}
+\def \ket{\rangle}
+\def \bra{\langle}
+\def \tm{$\bigcirc$ \hskip -.18 true in \small R}
+\def\I{\par \hskip .5in $\bullet$~}
+\def\II{\par \hskip .5in \hskip .5in $\bullet$~}
+\def\III{\par \hskip .5 in \hskip .5in \hskip .5in $\bullet$~}
+\newtheorem{Theorem}{\bf Theorem}[chapter]
+\newtheorem{Definition}{\bf Definition}[chapter]
+\newtheorem{Case}{\it Case}[chapter]
+\newtheorem{Suggestion}{\bf Suggestion}
+\newtheorem{Model}{\bf DC-switch model}
+\newtheorem{Example}{\bf Example}[chapter]
+\textwidth=5.8in  % 8.5 - (1.0 + 1.5) - .2
+\hoffset=.1in
+%\textheight=8.45in  % 11.0 - (1.0 + 0.33 + 1.25) 
+%\textheight=7.85in  % 11.0 - (1.0 + 0.33 + 1.25)  
+\textheight=8.45in  % 11.0 - (1.0 + 0.33 + 1.25)  
+\oddsidemargin=0.4in
+\topmargin=0 in
+\headheight=12pt
+\headsep=16pt
+
+\newcommand{\oneline}{\vspace{24pt}\noindent}
+\newcommand{\uponeline}{\vspace{-24pt}}
+\newcommand{\myindent}{\hspace*{10mm}}
+\newcommand{\smallspace}{\hspace*{7mm}}
+
+\@list{\topsep=0in}
+\@list{\itemsep=0in}
+\@list{\parsep=0in}
+
+\begin{document}
+\textheight=8.0 in  % 11.0 - (1.0 + 0.33 + 1.25)  
+\input{/usr/local/lib/tex/psfig.sty}
+\setcounter{page}{1}
+\pagenumbering{roman}
+\include{\home/coverpages/cover}     
+\doublespace
+\include{\home/coverpages/abstract}     
+\include{\home/coverpages/thanks}
+\tableofcontents
+\listoffigures
+\listoftables
+
+\newpage
+\textheight=8.45 in  % 11.0 - (1.0 + 0.33 + 1.25)  
+\pagestyle{myheadings}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\include{dallos/chap1}
+\setcounter{chapter}{1}
+\setcounter{page}{28}
+\include{dallos/chap2}
+\setcounter{chapter}{2}
+\setcounter{page}{49}
+\include{dallos/chap3}
+\setcounter{chapter}{3}
+\setcounter{page}{79}
+\include{dallos/chap4}
+\setcounter{chapter}{4}
+\setcounter{page}{107}
+\include{dallos/chap5}
+\setcounter{chapter}{5}
+\setcounter{page}{138}
+\include{dallos/chap6}
+\setcounter{page}{179}
+\pagebreak
+
+\frenchspacing
+\singlespace
+\bibliographystyle{plain}
+\bibliography{\home/bibliographies/hr,\home/bibliographies/all}
+
+
+\end{document}
