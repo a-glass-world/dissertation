@@ -1,4 +1,4 @@
-# Project AKOUEIN February 27, 1998
+# Project AKOUEIN for PhD
 Code for creating hearing models.  State prior to defense.
 
 ## Top-level code
